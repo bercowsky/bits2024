@@ -1,0 +1,60 @@
+*, .QFrame {
+    background: white;
+}
+
+MainWindow * {
+    font: 20px "Open Sans";
+    font-weight: 500;
+    color: rgb(68, 68, 68);
+    outline: none;
+}
+
+Form * {
+    font: 14px "Open Sans";
+}
+
+Header .separator {
+    background: #4c5351;
+	border: none;
+	margin-top: 2px;
+	margin-bottom: 2px;
+	min-width: 1px;
+	max-width: 1px;
+    min-height: 20px;
+	max-height: 20px;
+}
+
+
+FormControls IconTextButton#predict_button {
+    border: 2px solid blue;
+    color: blue;
+}
+
+FormControls IconTextButton#predict_button * {
+    color: blue
+}
+
+FormControls IconTextButton#reset_button {
+    border: 2px solid red;
+    color: red;
+}
+
+FormControls IconTextButton#reset_button * {
+    color: red;
+}
+
+QProgresBar {
+    text-align: center;
+}
+
+QProgressBar.green::chunk {
+	background: green;
+}
+
+QProgressBar.red::chunk {
+	background: red;
+}
+
+QProgressBar.yellow::chunk {
+	background: yellow;
+}

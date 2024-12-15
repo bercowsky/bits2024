@@ -1,0 +1,16 @@
+# Virtual environments
+env
+.env
+venv
+.venv
+
+# Pycache
+__pycache__
+
+# IDE settings
+.idea
+.vscode
+bits
+__pycache__
+
+db

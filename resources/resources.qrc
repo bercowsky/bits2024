@@ -1,0 +1,13 @@
+<RCC>
+    <qresource prefix="icons">
+        <file alias="bitsxlamarato.png">./icons/bitsxlamarato.png</file>
+        <file alias="export.svg">./icons/export.svg</file>
+        <file alias="import.svg">./icons/import.svg</file>
+        <file alias="magic.svg">./icons/magic.svg</file>
+        <file alias="reset.svg">./icons/reset.svg</file>
+    </qresource>
+
+    <qresource prefix="styles">
+        <file alias="style.css">./styles/style.css</file>
+    </qresource>
+</RCC>
